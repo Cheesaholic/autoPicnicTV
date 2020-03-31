@@ -1,33 +1,29 @@
 function main() {
 	
 	var ids = {
-  "spreadsheet" : "1HWp8v9h0MsKR-muukFqGEEqnCWB4Patp2nW18ai8ubY",
+  "spreadsheet" : "",
   
-  "slideShift1" : "1AYVCk1a3TwyPhfsDrTH8vwZJTyAe2EvUDtmlLPzqMnE",
+  "slideShift1" : "",
   "idShift1"    : "p",
   
-  "slideShift2" : "1Jp4XxPkiVN3yIQALExWkLcdhpqooVVx7XPhUmPTpSp4",
+  "slideShift2" : "",
   "idShift2"    : "p",
   
-  "slideShift3" : "14oGtUhAOsy0OqaUMEGyoGrRwa-aAdazcuKRuFhKMO60",
+  "slideShift3" : "",
   "idShift3"    : "p",
   
-  "slideBHV"    : "1tCVHIJmfGPSsPNSrinKJdLVeP5KZdot-dDzt1emOxg8",
+  "slideBHV"    : "",
   "idBHV"       : "p",
   
-  "slideFoto"   : "1ZziNvn8xfaBARHNzcMkHXmRWakCssqqjxsk3wRaT4qc",
+  "slideFoto"   : "",
   "idFoto"      : "p"
 	}
   
   var fotoSlide = true;
   
   var BHVers = {
-    'Patrick':'HM',
-    'Marnix':'R+',
-    'Colin':'R+',
-    'Hans':'R+',
-    'Renske':'R+',
-    'Jeroen':'AM'
+    "Naam" : "Functie",
+    "Naam" : "Functie"
   }
   
   var deliveryZones = {
