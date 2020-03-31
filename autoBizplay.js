@@ -19,8 +19,6 @@ function main() {
   "idFoto"      : "p"
 	}
   
-  var fotoSlide = true;
-  
   var BHVers = {
     "Naam" : "Functie",
     "Naam" : "Functie"
@@ -42,7 +40,7 @@ function main() {
   getSheet(ids);
   autoBHV(ids, BHVers);
   
-  if(fotoSlide) {
+  if(ids["slideFoto"] != "") {
 	getPhotoCriminals(ids);
   }
 }
