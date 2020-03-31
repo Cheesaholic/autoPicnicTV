@@ -26,8 +26,13 @@ function main() {
   
   var deliveryZones = {
 	  "deliveryZone1" : "",
+	  "aliasDeliveryZone1" : "",
+	  
 	  "deliveryZone2" : "",
-	  "deliveryZone3" : ""
+	  "aliasDeliveryZone2" : "",
+	  
+	  "deliveryZone3" : "",
+	  "aliasDeliveryZone3" : ""
   }
   
   
@@ -228,11 +233,11 @@ function dateTimeToString(array) {
 function getDeliveryZone(zoneString, deliveryZones) {
   zone = '';
   if(String(zoneString).indexOf(deliveryZones["deliveryZone1"]) != -1) {
-    zone = deliveryZones["deliveryZone1"];
+    zone = deliveryZones["aliasDeliveryZone1"];
   } else if(String(zoneString).indexOf(deliveryZones["deliveryZone2"]) != -1) {
-      zone = deliveryZones["deliveryZone2"];
+      zone = deliveryZones["aliasDeliveryZone2"];
     } else if(String(zoneString).indexOf(deliveryZones["deliveryZone3"]) != -1) {
-        zone = deliveryZones["deliveryZone3"];
+        zone = deliveryZones["aliasDeliveryZone3"];
       }
   return zone;
 }
