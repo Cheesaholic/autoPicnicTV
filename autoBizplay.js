@@ -25,13 +25,13 @@ function main() {
   }
   
   var deliveryZones = {
-	  "deliveryZone1" : "",
+	  "deliveryZone1"      : "",
 	  "aliasDeliveryZone1" : "",
 	  
-	  "deliveryZone2" : "",
+	  "deliveryZone2"      : "",
 	  "aliasDeliveryZone2" : "",
 	  
-	  "deliveryZone3" : "",
+	  "deliveryZone3"      : "",
 	  "aliasDeliveryZone3" : ""
   }
   
