@@ -121,11 +121,11 @@ function remfuncs(slide) {
 }
 
 function createTables(ids, shift, values, vtijden, deliveryZones) {
-  if(deliveryZones[shift-1] == ids["deliveryZones"]["deliveryZone1"]) {
+  if(deliveryZones[shift-1] == ids["deliveryZones"]["aliasDeliveryZone1"]) {
     var color = '#0000ff';
-  } else if(deliveryZones[shift-1] == ids["deliveryZones"]["deliveryZone2"]) {
+  } else if(deliveryZones[shift-1] == ids["deliveryZones"]["aliasDeliveryZone2"]) {
     var color = '#6aa84f';
-  } else if(deliveryZones[shift-1] == ids["deliveryZones"]["deliveryZone3"]) {
+  } else if(deliveryZones[shift-1] == ids["deliveryZones"]["aliasDeliveryZone3"]) {
     var color = '#e69318';
   } else {
     var color = '#9b1c31'; }
